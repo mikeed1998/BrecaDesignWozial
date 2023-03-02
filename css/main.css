@@ -1,0 +1,26 @@
+/* GENERAL */
+
+.titulo-morado {
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #0716CF;
+}
+
+.titulo-negrita {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitulo-negrita {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+/* HOME */
+
+.btn-circulo:hover {
+    background-color: #A3A3A3;
+}
