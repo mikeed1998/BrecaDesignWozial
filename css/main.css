@@ -69,3 +69,19 @@
     font-size: 2.5rem;
     color: #8E38E8;
 }
+
+#nombre::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+#whatsapp::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+#mensaje::placeholder {
+    text-align: center;
+    color: white;
+    opacity: 1; /* Firefox */
+  }
