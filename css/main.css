@@ -94,6 +94,10 @@
 */
 
 @media (min-width: 1281px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
     #espacios-md-sm-xs {
         display: none;
     }
@@ -103,7 +107,7 @@
     }
 
     .imagen-artistas {
-        height: 700px;
+        height: 600px;
     }
 
     .titulo-artistas {
@@ -118,14 +122,14 @@
 
     .texto-artistas {
         font-size: 20px;
-        width: 100%;
+        width: 80%;
         line-height: 1.2em;
-        height: 10em;
+        height: 16em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 12;
     }
 
     .overlay-estilos {
@@ -173,6 +177,10 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
     #espacios-md-sm-xs {
         display: none;
     }
@@ -182,7 +190,7 @@
     }
 
     .imagen-artistas {
-        height: 400px;
+        height: 360px;
         width: 100%;
     }
 
@@ -200,12 +208,12 @@
         font-size: 20px;
         width: 100%;
         line-height: 1.2em;
-        height: 10em;
+        height: 8.4em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 7;
     }
 
     .overlay-estilos {
@@ -258,6 +266,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
     #espacios-md-sm-xs {
         display: block;
     }
@@ -284,13 +296,13 @@
     .texto-artistas {
         font-size: 20px;
         width: 100%;
-        line-height: 1.2em;
-        height: 10em;
+        line-height: 1em;
+        height: 8em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 8;
     }
 
     .overlay-estilos {
@@ -345,6 +357,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #encabezado-sm-xs {
+        display: none;
+    }
+
     #espacios-md-sm-xs {
         display: none;
     }
@@ -354,7 +370,7 @@
     }
 
     .imagen-artistas {
-        height: 380px;
+        height: 370px;
         width: 100%;
     }
 
@@ -367,17 +383,17 @@
         font-size: 40px;
         margin-top: 0%;
     }
-
+   
     .texto-artistas {
         font-size: 20px;
         width: 100%;
-        line-height: 1.2em;
-        height: 10em;
+        line-height: 1em;
+        height: 8em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 8;
     }
 
     .overlay-estilos {
@@ -432,6 +448,10 @@
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    #encabezado-sm-xs {
+        display: block;
+    }
+
     #espacios-md-sm-xs {
         display: none;
     }
@@ -458,13 +478,13 @@
     .texto-artistas {
         font-size: 20px;
         width: 100%;
-        line-height: 1.2em;
+        line-height: 1.1em;
         height: 10em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 9;
     }
 
     .overlay-estilos {
@@ -519,6 +539,10 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    #encabezado-sm-xs {
+        display: block;
+    }
+
     #espacios-md-sm-xs {
         display: none;
     }
@@ -545,13 +569,13 @@
     .texto-artistas {
         font-size: 20px;
         width: 100%;
-        line-height: 1.2em;
+        line-height: 1.1em;
         height: 10em;
         background-color: transparent;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 10;
+        -webkit-line-clamp: 9;
     }
 
     .overlay-estilos {
