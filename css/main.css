@@ -25,7 +25,6 @@
     background-color: #A3A3A3;
 }
 
-
 /* OVERLAY - TRANSITION */
 .seccion-overlay {
     position: relative;
@@ -74,18 +73,18 @@
 #nombre::placeholder {
     color: white;
     opacity: 1; /* Firefox */
-  }
+}
 
 #whatsapp::placeholder {
     color: white;
     opacity: 1; /* Firefox */
-  }
+}
 
 #mensaje::placeholder {
     text-align: center;
     color: white;
     opacity: 1; /* Firefox */
-  }
+}
 
 /* MEDIA QUERYS */
 
@@ -103,12 +102,45 @@
         display: none;
     }
 
+    .imagen-artistas {
+        height: 700px;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
-
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -116,11 +148,18 @@
     }
 
 	.subtitulo-overlay {
-
+        font-weight: bold;
     }
 
 	.texto-overlay {
-
+        width: 100%;
+        line-height: 1.2em;
+        height: 12em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
     }
 
 	.icono-overlay {
@@ -142,12 +181,48 @@
         display: none;
     }
 
+    .imagen-artistas {
+        height: 400px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
+        font-size: 20px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -155,11 +230,21 @@
     }
 
 	.subtitulo-overlay {
-
+        font-size: 16px;
+        font-weight: bold;
     }
 
 	.texto-overlay {
+        font-size: 16px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 8.4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
     }
 
 	.icono-overlay {
@@ -181,12 +266,50 @@
         display: none;
     }
 
+    .imagen-artistas {
+        height: 380px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
+        font-size: 16px;
+        padding-top: 1px;
+        padding-bottom: 2px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -194,15 +317,25 @@
     }
 
 	.subtitulo-overlay {
-
+        font-size: 14px;
+        font-weight: bold;
     }
 
 	.texto-overlay {
+        font-size: 14px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
     }
 
 	.icono-overlay {
-        
+
     }
 }
 
@@ -220,12 +353,50 @@
         display: none;
     }
 
+    .imagen-artistas {
+        height: 380px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
+        font-size: 16px;
+        padding-top: 1px;
+        padding-bottom: 2px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -233,15 +404,25 @@
     }
 
 	.subtitulo-overlay {
-
+        font-size: 14px;
+        font-weight: bold;
     }
 
 	.texto-overlay {
+        font-size: 14px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 8em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
     }
 
 	.icono-overlay {
-        
+
     }
 }
 
@@ -259,12 +440,50 @@
         display: block;
     }
 
+    .imagen-artistas {
+        height: 380px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
+        font-size: 14px;
+        padding-top: 1px;
+        padding-bottom: 2px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -272,15 +491,25 @@
     }
 
 	.subtitulo-overlay {
-
+        font-size: 11px;
+        font-weight: bold;
     }
 
 	.texto-overlay {
+        font-size: 11px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 7em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
     }
 
 	.icono-overlay {
-        
+
     }
 }
 
@@ -298,12 +527,50 @@
         display: block;
     }
 
+    .imagen-artistas {
+        height: 500px;
+        width: 100%;
+    }
+
+    .titulo-artistas {
+        font-size: 60px;
+        margin: 0%;
+    }
+
+    .subtitulo-artistas {
+        font-size: 40px;
+        margin-top: 0%;
+    }
+
+    .texto-artistas {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.2em;
+        height: 10em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+    }
+
     .overlay-estilos {
         
     }
 
     .titulo-overlay {
+        font-size: 14px;
+        padding-top: 1px;
+        padding-bottom: 2px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 4em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
 
 	.linea-overlay {
@@ -311,15 +578,25 @@
     }
 
 	.subtitulo-overlay {
-
+        font-size: 11px;
+        font-weight: bold;
     }
 
 	.texto-overlay {
+        font-size: 11px;
 
+        width: 100%;
+        line-height: 1.2em;
+        height: 7em;
+        background-color: transparent;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
     }
 
 	.icono-overlay {
-        
+
     }
 }
 
