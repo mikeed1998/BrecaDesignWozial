@@ -14,6 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
     <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/main.css">
+    <style>.slick-slide{ padding:10px;}</style>
 </head>
 <body style="background-color: black;"> 
 	<header>
@@ -40,48 +41,50 @@
 		</div>
 	</header>
  
-    <main class="detalle-servicio">
+    <main>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-xs-12 px-2 mt-5 py-5 align-self-center">
-                    <div class="mt-5 py-5">
-                        <div class="row mt-5">
-                            <div class="col py-3 text-end">
-                                <img src="img/servicios2/foco.png" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-end">
-                                <h1 style="color: #552482;" class="fw-bolder">Producción</h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-end">
-                                <img src="img/servicios2/circle.png" alt="" class="img-fluid px-2">
-                                <img src="img/servicios2/circle.png" alt="" class="img-fluid">
+            <div class="row mt-5">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 mt-5">
+                    <div class="row">
+                        <div class="col text-white">
+                            <div class="mt-5 py-5">
+                                <div class="row mt-5">
+                                    <div class="col py-3 text-end">
+                                        <img src="img/servicios2/foco.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-end">
+                                        <h1 style="color: #552482;" class="fw-bolder">Producción</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-end">
+                                        <img src="img/servicios2/circle.png" alt="" class="img-fluid px-2">
+                                        <img src="img/servicios2/circle.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col text-white text-end">
+                            <a href="#" id="anterior" uk-icon="icon: chevron-left; ratio: 4"></a>
+                            <a href="#" id="siguiente" uk-icon="icon: chevron-right; ratio: 4"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 text-end px-5 mt-5 py-5 align-self-end">
-                    <ul class="uk-slider-nav uk-dotnav uk-dotnav-vertical mt-5 py-5">
-                        <li class="text-white"><a href="#">Item 2</a></li>
-                        <li><a href="#">Item 3</a></li>
-                        <li><a href="#">Item 4</a></li>
-                        <li><a href="#">Item 5</a></li>
-                    </ul>
-                </div>
-                <div class="col-xl-9 col-lg-9 col-md-8 col-sm-11 col-xs-11 px-5">
-                    
-                    <div uk-slider>
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                            <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-1@s uk-child-width-1-1@m">
-                                <li>
+                
+                <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 text-white">
+                    <div class="row">
+                        <div class="col">
+                            <div class="carrusel">
+                                <div>
                                     <div class="row">
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="card bg-transparent mt-5 border-0">
                                                 <img src="img/servicios/001-005.png" alt="">
-                                                <div class="card-body border border-white bg-white">
+                                                <div class="card-body bg-white">
                                                     <div class="row">
                                                         <div class="col text-center">
                                                             <h2 class="fw-bolder" style="color: #552482;">Producción profesional</h2>
@@ -105,10 +108,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="card bg-transparent mt-5 border-0">
                                                 <img src="img/servicios/001-005.png" alt="">
-                                                <div class="card-body border border-white bg-white">
+                                                <div class="card-body bg-white">
                                                     <div class="row">
                                                         <div class="col text-center">
                                                             <h2 class="fw-bolder" style="color: #552482;">Stage manager</h2>
@@ -127,13 +130,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>    
-                                <li>
+                                </div>
+                                <div>
                                     <div class="row">
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="card bg-transparent mt-5 border-0">
                                                 <img src="img/servicios/001-005.png" alt="">
-                                                <div class="card-body border border-white bg-white">
+                                                <div class="card-body bg-white">
                                                     <div class="row">
                                                         <div class="col text-center">
                                                             <h2 class="fw-bolder" style="color: #552482;">Producción profesional</h2>
@@ -157,10 +160,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                             <div class="card bg-transparent mt-5 border-0">
                                                 <img src="img/servicios/001-005.png" alt="">
-                                                <div class="card-body border border-white bg-white">
+                                                <div class="card-body bg-white">
                                                     <div class="row">
                                                         <div class="col text-center">
                                                             <h2 class="fw-bolder" style="color: #552482;">Stage manager</h2>
@@ -171,7 +174,6 @@
                                                             <p>
                                                                 Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz, industrial, electrónico y médico.
                                                                 Nos especializamos en la manufactura de ffgfgde principalmente para el sector automotriz, Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz, industrial, electrónico y médico.
-                                                               
                                                             </p>
                                                         </div>
                                                     </div>
@@ -179,68 +181,19 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>     
-                            </ul>
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>                    
+                                </div>
+                            </div>
                         </div>
-                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
                     </div>
-
-                    <!-- <div class="row px-5">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                            <div class="card bg-transparent mt-5 border-0">
-                                <img src="img/servicios/001-005.png" alt="">
-                                <div class="card-body border border-white bg-white">
-                                    <div class="row">
-                                        <div class="col text-center">
-                                            <h2 class="fw-bolder" style="color: #552482;">Producción</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col text-dark text-start">
-                                            <p>
-                                                Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz, industrial, electrónico y médico.
-                                                Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz,
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col text-center">
-                                            <a href="" class="btn btn-outline text-dark px-5" style="border: #552482 1px solid;">
-                                                Contactar
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                            <div class="card bg-transparent mt-5 border-0">
-                                <img src="img/servicios/001-005.png" alt="">
-                                <div class="card-body border border-white bg-white">
-                                    <div class="row">
-                                        <div class="col text-center">
-                                            <h2 class="fw-bolder" style="color: #552482;">Producción</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col text-dark text-start">
-                                            <p>
-                                                Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz, industrial, electrónico y médico.
-                                                Nos especializamos en la manufactura de ffgfgde principalmente para el sector automotriz, Nos especializamos en la manufactura de partes bajo la especificación y diseño del cliente principalmente para el sector automotriz, industrial, electrónico y médico.
-                                               
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
     </main>
+
+
+
+
+
 
     <div class="footer mb-5">
 		<div class="container-fluid" style="background-image: url(img/home/footerbg.png); background-size: cover;">
@@ -380,6 +333,46 @@
     <script type='text/javascript' src="https://js.openpay.mx/openpay-data.v1.min.js"></script>
     <!-- SlickJS -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.carrusel').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '#anterior',
+            nextArrow: '#siguiente',
+            responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+            ]
+        });
+    </script>
 </body>
 </html>
 
