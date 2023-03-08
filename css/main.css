@@ -624,4 +624,39 @@
     }
 }
 
+/* ANIMACIONES */
+
+.efecto-fade img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow img {
+    transition: 1s ease;
+}
+
+.efecto-grow img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.efecto-border img {
+    transition: .5s ease;
+}
+
+.efecto-border img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+
 

@@ -14,6 +14,42 @@
     <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
     <!-- CSS Personalizado -->
     <link rel="stylesheet" href="css/main.css">
+
+	<style>
+		
+.efecto-fade img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow img {
+    transition: 1s ease;
+}
+
+.efecto-grow img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.efecto-border img {
+    transition: .5s ease;
+}
+
+.efecto-border img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+	</style>
 </head>
 <body>
     <div class="container-fluid py-3">
@@ -53,7 +89,7 @@
                             <div class="row mt-5" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="fade-in">
                                 <div class="col mt-5">
                                     <div class="row mb-1">
-                                        <div class="col">
+                                        <div class="col efecto-grow">
                                             <img src="img/home/003-019.png" alt="" class="img-fluid" style="width:100%;">
                                         </div>
                                     </div>
@@ -78,7 +114,7 @@
                                 </div>
                             </div>
                             <div class="row py-5">
-                                <div class="col">
+                                <div class="col efecto-grow">
                                     <img src="img/home/003-009.png" alt="" class="img-fluid" width="100%">
                                 </div>
                             </div>
@@ -103,7 +139,7 @@
                                 </div>
 							</div>
                            <div class="row mt-5">
-                                <div class="col py-5">
+                                <div class="col py-5 efecto-fade">
                                     <div uk-slider>
                                         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                                             <ul class="uk-slider-items">
@@ -140,7 +176,7 @@
 																		</div>
 																		<div class="row">
 																			<div class="col text-end">
-																				<a class="icono-overlay" href="" uk-icon="icon: sign-in; ratio: 1.5"></a>
+																				<a class="icono-overlay" href="espectaculos.html" uk-icon="icon: sign-in; ratio: 1.5"></a>
 																			</div>
 																		</div>
 																	</div>
@@ -182,7 +218,7 @@
 																		</div>
 																		<div class="row">
 																			<div class="col text-end">
-																				<a class="icono-overlay" href="" uk-icon="icon: sign-in; ratio: 1.5"></a>
+																				<a class="icono-overlay" href="espectaculos.html" uk-icon="icon: sign-in; ratio: 1.5"></a>
 																			</div>
 																		</div>
 																	</div>
@@ -224,7 +260,7 @@
 																		</div>
 																		<div class="row">
 																			<div class="col text-end">
-																				<a class="icono-overlay" href="" uk-icon="icon: sign-in; ratio: 1.5"></a>
+																				<a class="icono-overlay" href="espectaculos.html" uk-icon="icon: sign-in; ratio: 1.5"></a>
 																			</div>
 																		</div>
 																	</div>
@@ -248,7 +284,7 @@
                     <div class="mt-5 gx-5 py-5 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
                         <div class="col">
                             <div class="row py-5">
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mt-1">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mt-1 efecto-grow">
                                     <img src="img/home/003-007.png" alt="" class="img-fluid imagen-artistas">
                                 </div>
                                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6 py-3 text-start">
@@ -282,7 +318,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col py-4">
+                                <div class="col py-4 efecto-grow">
                                     <img src="img/home/003-030.png" alt="" class="img-fluid" width="100%">
                                 </div>
                             </div>
@@ -308,7 +344,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col">
+					<div class="col efecto-border">
 						<img src="img/home/fondomorado.png" alt="" class="img-fluid" width="100%">
 					</div>
 				</div>
@@ -585,13 +621,13 @@
 	<!-- Modal -->
 	<div class="modal modal-lg fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
-			<div class="modal-content" style="background-color: #3B1263;">
+			<div class="modal-content" style="background-image: url(img/home/footerbg.png); background-size: cover; background-color: #3B1263;">
 				<div class="modal-header text-center">
 					<img src="img/home/empresa.png" alt="" class="img-fluid">
-					<button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<button type="button"  class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
-					<div class="container">
+					<div class="container text-center" style="background-image: url(img/home/foquito.png); background-size: contain; background-repeat: no-repeat; background-position:center; background-position-x: center;">
 						<div class="row">
 							<div class="col text-center">
 								<a href="index.html"><p class="texto-animado-1 display-3 text-white">Home</p></a>	
@@ -614,7 +650,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="modal-footer text-center">
+				<div class="modal-footer text-center text-white">
 					breca 2023 todos los derechos reservados diseño por wozial
 				</div>
 			</div>

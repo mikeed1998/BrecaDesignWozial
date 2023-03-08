@@ -16,6 +16,53 @@
     <link rel="stylesheet" href="css/main.css">
 
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+
+	<style>
+		      
+.efecto-fade img {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.efecto-fade img:hover {
+    -webkit-filter: brightness(60%);
+}
+
+.efecto-grow--cont {
+    transition: 1s ease;
+}
+
+.efecto-grow--cont:hover {
+    -webkit-transform: scale(1.31);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-grow img {
+    transition: 1s ease;
+}
+
+.efecto-grow img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.efecto-border img {
+    transition: .5s ease;
+}
+
+.efecto-border img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+}
+	</style>
 </head>
 <body style="background-color: #552482;"> 
 	<header>
@@ -51,7 +98,7 @@
             </div>
 			<div class="row px-5">
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5">
-					<div class="card animated fadeInUp delay-2s bg-transparent mt-5 border-0">
+					<div class="card animated fadeInUp delay-2s bg-transparent mt-5 border-0 efecto-fade efecto-grow--cont">
 						<img src="img/servicios/001-005.png" alt="" class="img-fluid imagen">
 						<div class="card-body border border-white">
 							<div class="row">
@@ -77,7 +124,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 efecto-fade efecto-grow--cont">
 					<div class="card bg-transparent border-0">
 						<img src="img/servicios/001-008.png" alt="">
 						<div class="card-body border border-white">
@@ -97,7 +144,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5 efecto-fade efecto-grow--cont">
 					<div class="card bg-transparent mt-5 border-0">
 						<img src="img/servicios/001-007.png" alt="">
 						<div class="card-body border border-white">
@@ -126,7 +173,7 @@
 				</div>
 			</div>
 			<div class="row px-5">
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5 efecto-fade efecto-grow--cont">
 					<div class="card bg-transparent mt-5 border-0">
 						<img src="img/servicios/001-005.png" alt="">
 						<div class="card-body border border-white">
@@ -153,7 +200,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 efecto-fade efecto-grow--cont">
 					<div class="card bg-transparent border-0">
 						<img src="img/servicios/001-008.png" alt="">
 						<div class="card-body border border-white">
@@ -173,7 +220,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 py-5 efecto-fade efecto-grow--cont">
 					<div class="card bg-transparent mt-5 border-0">
 						<img src="img/servicios/001-007.png" alt="">
 						<div class="card-body border border-white">
